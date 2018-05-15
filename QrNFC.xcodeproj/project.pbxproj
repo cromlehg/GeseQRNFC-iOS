@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732FE8D12093955A0099A43A /* 3969.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 732FE8D02093955A0099A43A /* 3969.ttf */; };
+		734F096420924E8B003B034F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F096320924E8B003B034F /* AppDelegate.swift */; };
+		734F096620924E8B003B034F /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F096520924E8B003B034F /* QRViewController.swift */; };
+		734F096920924E8B003B034F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734F096720924E8B003B034F /* Main.storyboard */; };
+		734F096B20924E8F003B034F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734F096A20924E8F003B034F /* Assets.xcassets */; };
+		734F096E20924E8F003B034F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734F096C20924E8F003B034F /* LaunchScreen.storyboard */; };
+		734F097720924FE9003B034F /* NFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F097620924FE9003B034F /* NFCViewController.swift */; };
+		734F097920925056003B034F /* ModeSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F097820925056003B034F /* ModeSelectorViewController.swift */; };
+		734F097D209250A0003B034F /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F097C209250A0003B034F /* Storyboards.swift */; };
+		734F0993209250DC003B034F /* Date+Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F0981209250DC003B034F /* Date+Utilites.swift */; };
+		734F0994209250DC003B034F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F0982209250DC003B034F /* UIView+Extensions.swift */; };
+		734F0995209250DC003B034F /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F0983209250DC003B034F /* DateFormatter+Extensions.swift */; };
+		734F0996209250DC003B034F /* UINavigationBar+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F0984209250DC003B034F /* UINavigationBar+Shadow.swift */; };
+		734F0997209250DC003B034F /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F0985209250DC003B034F /* UILabel+Extension.swift */; };
+		734F0998209250DC003B034F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F0986209250DC003B034F /* String+Extensions.swift */; };
+		734F0999209250DC003B034F /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F0987209250DC003B034F /* UITextView+Extensions.swift */; };
+		734F099A209250DC003B034F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F0988209250DC003B034F /* UIColor+Extensions.swift */; };
+		734F099B209250DC003B034F /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F0989209250DC003B034F /* UIImage+Extensions.swift */; };
+		734F099C209250DC003B034F /* NumberFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F098A209250DC003B034F /* NumberFormatter+Extensions.swift */; };
+		734F099D209250DC003B034F /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F098B209250DC003B034F /* UIViewController+Alerts.swift */; };
+		734F099E209250DC003B034F /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F098C209250DC003B034F /* UIStoryboard+Extensions.swift */; };
+		734F099F209250DC003B034F /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F098D209250DC003B034F /* UITableView+Extensions.swift */; };
+		734F09A0209250DC003B034F /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F098E209250DC003B034F /* UIScrollView+Extensions.swift */; };
+		734F09A1209250DC003B034F /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F098F209250DC003B034F /* UICollectionView+Extensions.swift */; };
+		734F09A2209250DC003B034F /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F0990209250DC003B034F /* UITextField+Extensions.swift */; };
+		734F09A6209255CD003B034F /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734F09A5209255CD003B034F /* CameraView.swift */; };
+		73AE95B620A08993001002B7 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AE95B520A08993001002B7 /* App.swift */; };
+		73AE95B820A08A5A001002B7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AE95B720A08A5A001002B7 /* InfoViewController.swift */; };
+		73AE95BA20A08A67001002B7 /* QRInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AE95B920A08A67001002B7 /* QRInfoViewController.swift */; };
+		73AE95BC20A08A72001002B7 /* NFCInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AE95BB20A08A72001002B7 /* NFCInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		732FE8D02093955A0099A43A /* 3969.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3969.ttf; sourceTree = "<group>"; };
+		734F096020924E8B003B034F /* QrNFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QrNFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		734F096320924E8B003B034F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		734F096520924E8B003B034F /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		734F096820924E8B003B034F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		734F096A20924E8F003B034F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		734F096D20924E8F003B034F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		734F096F20924E8F003B034F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734F097520924F81003B034F /* QrNFC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QrNFC.entitlements; sourceTree = "<group>"; };
+		734F097620924FE9003B034F /* NFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCViewController.swift; sourceTree = "<group>"; };
+		734F097820925056003B034F /* ModeSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectorViewController.swift; sourceTree = "<group>"; };
+		734F097C209250A0003B034F /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		734F0981209250DC003B034F /* Date+Utilites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Utilites.swift"; sourceTree = "<group>"; };
+		734F0982209250DC003B034F /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		734F0983209250DC003B034F /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		734F0984209250DC003B034F /* UINavigationBar+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Shadow.swift"; sourceTree = "<group>"; };
+		734F0985209250DC003B034F /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		734F0986209250DC003B034F /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		734F0987209250DC003B034F /* UITextView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
+		734F0988209250DC003B034F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		734F0989209250DC003B034F /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		734F098A209250DC003B034F /* NumberFormatter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		734F098B209250DC003B034F /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
+		734F098C209250DC003B034F /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
+		734F098D209250DC003B034F /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		734F098E209250DC003B034F /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		734F098F209250DC003B034F /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		734F0990209250DC003B034F /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		734F09A5209255CD003B034F /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		73AE95B520A08993001002B7 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		73AE95B720A08A5A001002B7 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		73AE95B920A08A67001002B7 /* QRInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRInfoViewController.swift; sourceTree = "<group>"; };
+		73AE95BB20A08A72001002B7 /* NFCInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCInfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		734F095D20924E8B003B034F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		732FE8CF209395390099A43A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				732FE8D02093955A0099A43A /* 3969.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		734F095720924E8B003B034F = {
+			isa = PBXGroup;
+			children = (
+				734F096220924E8B003B034F /* QrNFC */,
+				734F096120924E8B003B034F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		734F096120924E8B003B034F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				734F096020924E8B003B034F /* QrNFC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734F096220924E8B003B034F /* QrNFC */ = {
+			isa = PBXGroup;
+			children = (
+				732FE8CF209395390099A43A /* Resources */,
+				734F09A420925589003B034F /* Views */,
+				734F09A320925212003B034F /* Storyboards */,
+				734F097B2092508B003B034F /* Controllers */,
+				734F097A20925084003B034F /* Core */,
+				734F097520924F81003B034F /* QrNFC.entitlements */,
+				734F096A20924E8F003B034F /* Assets.xcassets */,
+				734F096F20924E8F003B034F /* Info.plist */,
+			);
+			path = QrNFC;
+			sourceTree = "<group>";
+		};
+		734F097A20925084003B034F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				734F097E209250DB003B034F /* Extensions */,
+				734F097C209250A0003B034F /* Storyboards.swift */,
+				734F096320924E8B003B034F /* AppDelegate.swift */,
+				73AE95B520A08993001002B7 /* App.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		734F097B2092508B003B034F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				734F096520924E8B003B034F /* QRViewController.swift */,
+				734F097620924FE9003B034F /* NFCViewController.swift */,
+				734F097820925056003B034F /* ModeSelectorViewController.swift */,
+				73AE95B720A08A5A001002B7 /* InfoViewController.swift */,
+				73AE95B920A08A67001002B7 /* QRInfoViewController.swift */,
+				73AE95BB20A08A72001002B7 /* NFCInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		734F097E209250DB003B034F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				734F0981209250DC003B034F /* Date+Utilites.swift */,
+				734F0982209250DC003B034F /* UIView+Extensions.swift */,
+				734F0983209250DC003B034F /* DateFormatter+Extensions.swift */,
+				734F0984209250DC003B034F /* UINavigationBar+Shadow.swift */,
+				734F0985209250DC003B034F /* UILabel+Extension.swift */,
+				734F0986209250DC003B034F /* String+Extensions.swift */,
+				734F0987209250DC003B034F /* UITextView+Extensions.swift */,
+				734F0988209250DC003B034F /* UIColor+Extensions.swift */,
+				734F0989209250DC003B034F /* UIImage+Extensions.swift */,
+				734F098A209250DC003B034F /* NumberFormatter+Extensions.swift */,
+				734F098B209250DC003B034F /* UIViewController+Alerts.swift */,
+				734F098C209250DC003B034F /* UIStoryboard+Extensions.swift */,
+				734F098D209250DC003B034F /* UITableView+Extensions.swift */,
+				734F098E209250DC003B034F /* UIScrollView+Extensions.swift */,
+				734F098F209250DC003B034F /* UICollectionView+Extensions.swift */,
+				734F0990209250DC003B034F /* UITextField+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		734F09A320925212003B034F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				734F096C20924E8F003B034F /* LaunchScreen.storyboard */,
+				734F096720924E8B003B034F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		734F09A420925589003B034F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				734F09A5209255CD003B034F /* CameraView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		734F095F20924E8B003B034F /* QrNFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734F097220924E8F003B034F /* Build configuration list for PBXNativeTarget "QrNFC" */;
+			buildPhases = (
+				734F095C20924E8B003B034F /* Sources */,
+				734F095D20924E8B003B034F /* Frameworks */,
+				734F095E20924E8B003B034F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QrNFC;
+			productName = QrNFC;
+			productReference = 734F096020924E8B003B034F /* QrNFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		734F095820924E8B003B034F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = yakubov.me;
+				TargetAttributes = {
+					734F095F20924E8B003B034F = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 734F095B20924E8B003B034F /* Build configuration list for PBXProject "QrNFC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 734F095720924E8B003B034F;
+			productRefGroup = 734F096120924E8B003B034F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				734F095F20924E8B003B034F /* QrNFC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		734F095E20924E8B003B034F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734F096E20924E8F003B034F /* LaunchScreen.storyboard in Resources */,
+				734F096B20924E8F003B034F /* Assets.xcassets in Resources */,
+				734F096920924E8B003B034F /* Main.storyboard in Resources */,
+				732FE8D12093955A0099A43A /* 3969.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		734F095C20924E8B003B034F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734F09A2209250DC003B034F /* UITextField+Extensions.swift in Sources */,
+				734F097920925056003B034F /* ModeSelectorViewController.swift in Sources */,
+				734F099C209250DC003B034F /* NumberFormatter+Extensions.swift in Sources */,
+				734F099A209250DC003B034F /* UIColor+Extensions.swift in Sources */,
+				734F0999209250DC003B034F /* UITextView+Extensions.swift in Sources */,
+				734F09A1209250DC003B034F /* UICollectionView+Extensions.swift in Sources */,
+				734F0998209250DC003B034F /* String+Extensions.swift in Sources */,
+				734F09A6209255CD003B034F /* CameraView.swift in Sources */,
+				734F0996209250DC003B034F /* UINavigationBar+Shadow.swift in Sources */,
+				734F09A0209250DC003B034F /* UIScrollView+Extensions.swift in Sources */,
+				73AE95B620A08993001002B7 /* App.swift in Sources */,
+				734F097D209250A0003B034F /* Storyboards.swift in Sources */,
+				734F099D209250DC003B034F /* UIViewController+Alerts.swift in Sources */,
+				734F0993209250DC003B034F /* Date+Utilites.swift in Sources */,
+				734F0994209250DC003B034F /* UIView+Extensions.swift in Sources */,
+				734F0995209250DC003B034F /* DateFormatter+Extensions.swift in Sources */,
+				73AE95BC20A08A72001002B7 /* NFCInfoViewController.swift in Sources */,
+				734F0997209250DC003B034F /* UILabel+Extension.swift in Sources */,
+				73AE95BA20A08A67001002B7 /* QRInfoViewController.swift in Sources */,
+				734F096620924E8B003B034F /* QRViewController.swift in Sources */,
+				734F099F209250DC003B034F /* UITableView+Extensions.swift in Sources */,
+				734F096420924E8B003B034F /* AppDelegate.swift in Sources */,
+				734F097720924FE9003B034F /* NFCViewController.swift in Sources */,
+				734F099E209250DC003B034F /* UIStoryboard+Extensions.swift in Sources */,
+				73AE95B820A08A5A001002B7 /* InfoViewController.swift in Sources */,
+				734F099B209250DC003B034F /* UIImage+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		734F096720924E8B003B034F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734F096820924E8B003B034F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		734F096C20924E8F003B034F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734F096D20924E8F003B034F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		734F097020924E8F003B034F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		734F097120924E8F003B034F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		734F097320924E8F003B034F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QrNFC/QrNFC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9PE47AXR9;
+				INFOPLIST_FILE = QrNFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yakubov.QrNFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		734F097420924E8F003B034F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QrNFC/QrNFC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9PE47AXR9;
+				INFOPLIST_FILE = QrNFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.yakubov.QrNFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		734F095B20924E8B003B034F /* Build configuration list for PBXProject "QrNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734F097020924E8F003B034F /* Debug */,
+				734F097120924E8F003B034F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734F097220924E8F003B034F /* Build configuration list for PBXNativeTarget "QrNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734F097320924E8F003B034F /* Debug */,
+				734F097420924E8F003B034F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 734F095820924E8B003B034F /* Project object */;
+}
